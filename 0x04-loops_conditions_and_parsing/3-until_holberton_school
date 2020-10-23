@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#print repetion until"
+COUNTER=0
+until ((COUNTER>=10))
+do
+	echo "Holberton School"
+	((COUNTER++))
+done
