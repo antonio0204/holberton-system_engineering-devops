@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#script that displays the content of the file /etc/passwd
+FILE="apache-access.log"
+if [ -e $FILE ]
+then
+    awk '{print $1 " " $9}' $FILE
+fi
