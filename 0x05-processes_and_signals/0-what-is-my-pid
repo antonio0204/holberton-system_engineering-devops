@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#script that displays the process in the file
+echo $$
