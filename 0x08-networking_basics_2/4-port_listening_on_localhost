@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#switch of local host
+nc -lk 98
