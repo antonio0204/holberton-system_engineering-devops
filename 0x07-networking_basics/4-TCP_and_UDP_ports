@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#display information pc
+sudo netstat -lp
