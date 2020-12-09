@@ -3,7 +3,7 @@
 apt-get update
 apt-get -y install nginx
 
-service nginx restart
+service nginx start
 
 file="/var/www/html/index.html"
 echo "Holberton School" > "$file"
