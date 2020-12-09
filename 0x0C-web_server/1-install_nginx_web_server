@@ -5,5 +5,5 @@ apt-get -y install nginx
 
 service nginx restart
 
-file="/var/www/html/"
+file="/var/www/html/index.html"
 echo "Holberton School" > "$file"
