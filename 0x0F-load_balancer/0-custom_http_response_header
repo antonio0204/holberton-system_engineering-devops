@@ -6,6 +6,8 @@ sudo service nginx start
 
 echo "Holberton School" > /var/www/html/index.html
 
+sudo echo "Ceci n'est pas une page" > /var/www/html/custom_404.html
+sudo sed -i "/server_name _;/ a rewrite ^/redirect_me https://twitter.com/ronald45251997;" /etc/nginx/sites-available/default
 otherdefault="/etc/nginx/sites-enabled/default"
 location="\\\tadd_header X-Served-By \$hostname;"
 sudo sed -i "30i $location" "$otherdefault"
