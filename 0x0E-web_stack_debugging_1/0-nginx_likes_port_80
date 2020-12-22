@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-#find out what’s keeping your Ubuntu container’s Nginx
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+# write a Bash script with the minimum number of commands
+
+sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx restart
