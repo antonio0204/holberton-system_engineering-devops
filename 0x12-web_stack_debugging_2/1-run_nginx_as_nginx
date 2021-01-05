@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# script to as nginx
+# script to as nginx nginx
 pkill -f apache2
 chown nginx:nginx /etc/nginx/nginx.conf
 chmod 700 /etc/nginx/nginx.conf
