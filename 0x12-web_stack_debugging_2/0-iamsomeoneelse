@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-# with the command can show the user name
-
-sudo -u "$1" whoami
+# whoami user.
+sudo -u "$1" "whoami"
