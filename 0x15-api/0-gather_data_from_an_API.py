@@ -37,7 +37,7 @@ def get_All(users_id):
 
 
 if __name__ == '__main__':
-    import sys
     import requests
+    import sys 
     if len(sys.argv) == 2:
         get_All(sys.argv[1])
