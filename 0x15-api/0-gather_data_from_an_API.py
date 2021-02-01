@@ -3,11 +3,6 @@
 ''' Development api with https://jsonplaceholder.typicode.com
 '''
 
-from flask import Flask
-import requests
-
-app = Flask(__name__)
-
 
 def get_All(users_id):
 
@@ -38,6 +33,6 @@ def get_All(users_id):
 
 if __name__ == '__main__':
     import requests
-    import sys 
+    import sys
     if len(sys.argv) == 2:
         get_All(sys.argv[1])
